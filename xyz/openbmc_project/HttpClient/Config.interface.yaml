@@ -1,0 +1,101 @@
+description: >
+    Implementation of settings of the http client service.
+
+properties:
+    - name: PathOfFile
+      type: string
+      description: >
+        The value of this property shall be a name of
+        existing file to upload.
+
+    - name: LengthOfBlock
+      type: uint32
+      default: 100000
+      description: >
+        The value of this property shall be a max size
+        of blocks to upload file to server.
+
+    - name: Host
+      type: string
+      default: "10.0.2.2"
+      description: >
+        Address of server to upload file.
+
+    - name: Port
+      type: string
+      default: "8080"
+      description: >
+        Port of server to upload file.
+
+    - name: HttpPath
+      type: string
+      default: "/files/"
+      description: >
+        Path of resources on server to upload file.
+
+    - name: HttpResource
+      type: string
+      default: ""
+      description: >
+        Resource(sessionID) on server to upload file.
+
+    - name: Service
+      type: string
+      default: "true"
+      description: >
+        Description of logs.
+
+    - name: SerialNumber
+      type: string
+      default: "13415456456347456485678567959678989"
+      description: >
+        Description of logs.
+
+    - name: LogCollectionTimestamp
+      type: string
+      default: "Thu Aug 08 14:00:05 MSK 2019"
+      description: >
+        Description of logs.
+
+    - name: SystemType
+      type: string
+      default: "vesnin"
+      description: >
+        Description of logs.
+
+    - name: LogLevel
+      type: string
+      default: "System"
+      description: >
+        Description of logs.
+
+    - name: Originator
+      type: string
+      default: "system"
+      description: >
+        Description of logs.
+
+    - name: Checksum
+      type: string
+      default: "dc98fc675cfe7abfad2e0d06b56ace30"
+      description: >
+        Description of logs.
+
+    - name: Hostname
+      type: string
+      default: "example.com"
+      description: >
+        Description of logs.
+
+    - name: NotificationManager
+      type: string
+      default: ""
+      description: >
+        Description of logs.
+
+    - name: Cancel
+      type: string
+      default: "No"
+      description: >
+        Description of logs.
+

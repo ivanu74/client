@@ -1,0 +1,9 @@
+description: >
+    Implementation of the http client service.
+
+methods:
+    - name: Upload
+      description: >
+        Upload archive file to http server.
+      errors:
+        - xyz.openbmc_project.Common.File.Error.Write
